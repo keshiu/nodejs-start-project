@@ -21,6 +21,7 @@
   },
   "scripts": {
     "babel-node": "babel-node",
+    "lint": "eslint \"./**/*.js\"",
     "build": "NODE_ENV=production babel src --out-dir dist --source-maps inline",
     "prepublishOnly": "npm run build",
     "test": "jest"
