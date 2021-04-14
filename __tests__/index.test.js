@@ -1,4 +1,3 @@
-/* eslint-disable linebreak-style */
 import sum from '../src';
 
 test('1 + 2 should return 3', () => {
